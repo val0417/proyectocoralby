@@ -1,0 +1,5 @@
+RewriteEngine On
+
+# Redirige a login2.php cuando se accede a la raíz del directorio coralby
+RewriteRule ^coralby$ /proyectocoralby/login2.php [L]
+
